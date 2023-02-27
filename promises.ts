@@ -6,5 +6,5 @@
 // }
 
 async function myFunction(){
-    console.log("Hello")
+    return "myFunction"
 }
