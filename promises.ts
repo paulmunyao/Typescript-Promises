@@ -26,4 +26,6 @@ let promiseTwo = new Promise((resolve,reject)=>{
 });
 
 // creating async function
-async function myFunction():Promise<any>
+async function myFunction():Promise<any>{
+    let firstResult = PromiseOne
+}
