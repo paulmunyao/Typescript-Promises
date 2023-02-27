@@ -16,4 +16,7 @@
 
 // Set a promise with return timeouts of 500ms and 1000ms
 // Promise 500ms timeout
+let promiseOne = new Promise((resolve,reject)=>{
+    setTimeout(()=>resolve("Resolve promise early"),500)
+})
 
