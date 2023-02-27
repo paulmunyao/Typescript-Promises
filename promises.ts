@@ -26,12 +26,12 @@ let promiseTwo = new Promise((resolve, reject) => {
 });
 
 // creating async function
-async function myFunction(): Promise<any> {
+async function asyncFunction(): Promise<any> {
   let firstResult = promiseOne;
   let secondResult = promiseTwo;
-//   return firstResult + secondResult;
+  return firstResult + secondResult;
 }
 
 // log the result
-myFunction().then(result=>console.log(result));
+asyncFunction().then(result=>console.log(result));
 
