@@ -1,8 +1,8 @@
-// run async that returns a promise and resolves when some background work is complete 
+// run async that returns a promise and resolves when some background work is complete
 // async function myFunction(){
-    // await doAsyncWork()
-    // A promise is returned from the async function
-    // return aPromise
+// await doAsyncWork()
+// A promise is returned from the async function
+// return aPromise
 // }
 
 // async function myFunction(){
@@ -16,18 +16,21 @@
 
 // Set a promise with return timeouts of 500ms and 1000ms
 // Promise 500ms timeout
-let promiseOne = new Promise((resolve,reject)=>{
-    setTimeout(()=>resolve("Resolve promise early"),500)
+let promiseOne = new Promise((resolve, reject) => {
+  setTimeout(() => resolve("Resolve promise early"), 500);
 });
 
 // Set a promise with return timeouts of 1000ms
-let promiseTwo = new Promise((resolve,reject)=>{
-    setTimeout(()=>resolve("Resolve promise later "),1000)
+let promiseTwo = new Promise((resolve, reject) => {
+  setTimeout(() => resolve("Resolve promise later "), 1000);
 });
 
 // creating async function
-async function myFunction():Promise<any>{
-    let firstResult = promiseOne;
-    let secondResult = promiseTwo;
-    return firstResult + secondResult;
+async function myFunction(): Promise<any> {
+  let firstResult = promiseOne;
+  let secondResult = promiseTwo;
+  return firstResult + secondResult;
 }
+
+// log the result
+asyncFunction().then(result=>console.log(result));
