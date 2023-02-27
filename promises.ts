@@ -10,3 +10,6 @@ async function myFunction(){
 }
 
 // Setting a string to be returned from the promise
+async function myFunction():Promise<string>{
+
+}
