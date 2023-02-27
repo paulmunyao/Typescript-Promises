@@ -8,3 +8,5 @@
 async function myFunction(){
     return "myFunction"
 }
+
+// Setting a string to be returned from the promise
