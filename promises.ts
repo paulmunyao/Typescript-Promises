@@ -21,4 +21,6 @@ let promiseOne = new Promise((resolve,reject)=>{
 });
 
 // Set a promise with return timeouts of 1000ms
-
+let promiseTwo = new Promise((resolve,reject)=>{
+    
+})
