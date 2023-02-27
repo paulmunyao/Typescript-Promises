@@ -6,4 +6,5 @@
 // }
 
 async function myFunction(){
+    return "Hellolo"
 }
