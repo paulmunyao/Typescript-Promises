@@ -33,4 +33,4 @@ async function myFunction(): Promise<any> {
 }
 
 // log the result
-asyncFunction().then(result=>console.log(result));
+myFunction().then(result=>console.log(result));
