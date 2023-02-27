@@ -23,4 +23,7 @@ let promiseOne = new Promise((resolve,reject)=>{
 // Set a promise with return timeouts of 1000ms
 let promiseTwo = new Promise((resolve,reject)=>{
     setTimeout(()=>resolve("Resolve promise later "),1000)
-})
+});
+
+// creating async function
+async function myFunction():
