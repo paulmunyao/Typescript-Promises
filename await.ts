@@ -4,4 +4,4 @@ let promiseOne = new Promise((resolve ,reject)=>{
 
 let promiseTwo  = new Promise((resolve, reject)=>{
     setTimeout(()=> resolve("Resolve promise later on"))
-})
+});
