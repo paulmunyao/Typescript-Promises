@@ -34,3 +34,5 @@ async function asyncFunction(): Promise<number> {
 
 // log the result
 asyncFunction().then((result) => console.log(result));
+
+
