@@ -11,3 +11,5 @@ async function asyncAwaitFunction (): Promise<any>{
     let secondResult = await promiseTwo;
     return firstResult + secondResult;
 }
+
+asyncAwaitFunction ()
