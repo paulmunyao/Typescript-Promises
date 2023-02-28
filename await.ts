@@ -1,4 +1,4 @@
-let promise = new Promise((resolve ,reject)=>{
+let promiseOne = new Promise((resolve ,reject)=>{
     setTimeout(()=> resolve("Resolve promise earlier"))
 })
 
