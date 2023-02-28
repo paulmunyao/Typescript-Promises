@@ -8,4 +8,5 @@ let promiseTwo  = new Promise((resolve, reject)=>{
 
 async function asyncAwaitFunction (): Promise<any>{
     let firstResult = await promiseOne;
+    let secondResult = await promiseTwo;
 }
