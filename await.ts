@@ -12,4 +12,4 @@ async function asyncAwaitFunction (): Promise<any>{
     return firstResult + secondResult;
 }
 
-asyncAwaitFunction ()
+asyncAwaitFunction ().then (result => console.log(result));
