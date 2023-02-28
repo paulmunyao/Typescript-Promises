@@ -1,3 +1,3 @@
 let promise = new Promise((resolve ,reject)=>{
-    setTimeout(()=> resolve())
+    setTimeout(()=> resolve("Resolve promise earlier"))
 })
