@@ -2,4 +2,4 @@ let promise = new Promise((resolve ,reject)=>{
     setTimeout(()=> resolve("Resolve promise earlier"))
 })
 
-let promise 
+let promise  = new Promise((resolve, reject))
