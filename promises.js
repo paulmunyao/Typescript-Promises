@@ -53,9 +53,9 @@ var promiseOne = new Promise(function (resolve, reject) {
     setTimeout(function () { return resolve("Resolve promise early"); }, 500);
 });
 // // Set a promise with return timeouts of 1000ms
-// var promiseTwo = new Promise(function (resolve, reject) {
-//     setTimeout(function () { return resolve("Resolve promise later "); }, 1000);
-// });
+var promiseTwo = new Promise(function (resolve, reject) {
+    setTimeout(function () { return resolve("Resolve promise later "); }, 1000);
+});
 // creating async function
 function asyncFunction() {
     return __awaiter(this, void 0, void 0, function () {
