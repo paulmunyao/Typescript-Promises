@@ -6,4 +6,4 @@ let promiseTwo  = new Promise((resolve, reject)=>{
     setTimeout(()=> resolve("Resolve promise later on"))
 });
 
-async function asyncAwaitFunction ():
+async function asyncAwaitFunction (): Promise<any>
