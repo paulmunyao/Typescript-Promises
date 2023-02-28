@@ -49,9 +49,9 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 // }
 // Set a promise with return timeouts of 500ms and 1000ms
 // Promise 500ms timeout
-// var promiseOne = new Promise(function (resolve, reject) {
-//     setTimeout(function () { return resolve("Resolve promise early"); }, 500);
-// });
+var promiseOne = new Promise(function (resolve, reject) {
+    setTimeout(function () { return resolve("Resolve promise early"); }, 500);
+});
 // // Set a promise with return timeouts of 1000ms
 // var promiseTwo = new Promise(function (resolve, reject) {
 //     setTimeout(function () { return resolve("Resolve promise later "); }, 1000);
