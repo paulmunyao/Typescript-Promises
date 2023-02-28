@@ -12,5 +12,5 @@ async function asyncAwaitFunction(): Promise<any> {
   return firstResult + secondResult;
 }
 
-
+// logs the results
 asyncAwaitFunction().then((result) => console.log(result));
