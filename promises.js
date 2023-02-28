@@ -68,4 +68,4 @@ function asyncFunction() {
     });
 }
 // log the result
-asyncFunction().then(function (result) { return console.log(result); });
+// asyncFunction().then(function (result) { return console.log(result); });
