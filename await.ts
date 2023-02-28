@@ -3,5 +3,5 @@ let promise = new Promise((resolve ,reject)=>{
 })
 
 let promise  = new Promise((resolve, reject)=>{
-    setTimeout(()=> resolve)
+    setTimeout(()=> resolve("Resolve promise later on"))
 })
